@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:id="@+id/pad"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FF03A9F4"
         android:baselineAligned="false"
@@ -129,7 +129,7 @@
             android:textColor="#FFFFFF" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_daftar"
             android:layout_width="388dp"
             android:layout_height="47dp"
             android:layout_gravity="center"
@@ -159,6 +159,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="daftar"
                 android:paddingLeft="5dp"
                 android:text="Masuk"
                 android:textColor="#FF1744" />
